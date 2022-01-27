@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contatos</title>
+    <link rel="stylesheet" href="/CSS/contatos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="caixa">
+        <h1>
+          <img src="/IMG/logo.png" alt="logo" />
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contatos.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+        <form action="">
+            <label for="nomeesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomeesobrenome" class="input-padrao" required>
+
+            <label for="e-mail">E-mail</label>
+            <input type="email" id="e-mail" class="input-padrao" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" class="input-padrao" required placeholder="(DDD) X XXXX-XXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
+
+            <div>
+            <p>Como prefere o nosso contato</p>
+
+            <label for="radio-e-mail"><input type="radio" name="contato" id="radio-e-mail" value="e-mail">E-mail</label>
+            
+
+            <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone" value="telefone">Telefone</label>
+            
+
+            <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" value="WhatsApp">WhatsApp</label>
+            
+            </div>
+
+            <div>
+                <p>Qual horário prefere ser atendido?</p>
+                <select name="" id="">
+                <option value="Manhã">Manhã</option>
+                <option value="Tarde">Tarde</option>
+                <option value="Noite">Noite</option>
+            </select>
+            </div>
+
+            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por E-mail?</label>
+            
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Dia</th>
+              <th>Horário</th>
+          </tr>
+          </thead>
+          
+          <tr>
+            <td>Segunda</td>
+            <td>8h</td>
+          </tr>
+          <tr>
+            <td>Terça</td>
+            <td>12h</td>
+          </tr>
+        </table>
+
+    </main>
+    <footer>
+        <img src="/IMG/logo-branco.png" alt="">
+        <p class="copyright">&copy; Copyright Barbearia Robson 2022</p>
+      </footer>
+    </body>
+  </html>

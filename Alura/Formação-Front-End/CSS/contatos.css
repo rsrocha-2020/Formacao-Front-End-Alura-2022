@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+    
+  }
+
+  .checkbox{
+      margin: 20px 0;
+  }
+  .enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: rgb(18, 93, 231);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s background;
+    cursor: pointer;
+  }
+  .enviar:hover{
+    background-color: #d87708;
+    transform: scale(1.1);
+  }
+  
+  form{
+      margin: 40px 0;
+  }
+  form label, form p{
+      display: block;
+      font-size: 20px;
+      margin: 0 0 10px;
+  }
+  .input-padrao{
+      display: block;
+      margin: 0 0 20px;
+      padding:10px 25px;
+      width: 50%;
+      background-color: rgb(245, 242, 242);
+      border-radius: 10px;
+  }
+
+  header{
+    background-color: #BBBBBB;
+    padding: 20px;
+  }
+  .caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  main{
+      width: 940px;
+      margin: 0 auto;
+  }
+
+  nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+  }
+  nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+  }
+  nav a{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  nav a:hover{
+    color: rgb(200, 245, 40);
+    text-decoration: underline;
+  }
+  .produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  .produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 10px;
+  }
+  .produtos li:hover{
+    border-color: #c78c19;
+  }
+  .produtos li:active{
+    border-color: #088190;
+  }
+  .produtos li:hover h2{
+    font-size: 34px;
+  }
+  .produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .produto-preço{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .produto-descrição{
+    font-size: 18px;
+    
+  }
+  footer{
+    text-align: center;
+    background: url("/IMG/bg.jpg");
+    padding: 40px 0;
+  }
+  table{
+    margin: 20px 0 40px;
+  }
+  thead{
+    background: #BBBBBB;
+    color: #000;
+    font-weight: bold;
+  }
+  td, th{
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px;
+  }
+  
