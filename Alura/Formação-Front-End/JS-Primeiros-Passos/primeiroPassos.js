@@ -14,3 +14,9 @@ console.log("Operações Aritméricas");
 console.log();
 console.log(2+2);
 console.log("2"+"2");
+
+//Listas
+
+const listaDeDestinos = new Array(`A`,`B`,`C`,`D`);
+
+console.log(listaDeDestinos);
